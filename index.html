@@ -1,0 +1,26 @@
+<!-- ====== Tugas 46 JavaScript ===== -->
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Belajar Javascript Tugas 46 - NIOMIC</title>
+</head>
+
+<body>
+  <p>Click Untuk Merubah Warna</p>
+
+  <button onclick="color_change()">Ubah Warna</button>
+
+  <script type="text/javascript">
+    function color_change() {
+      var a = window.prompt("Ketikan Warna yang kamu inginkan (english)");
+      if (a != null) {
+        document.body.style.backgroundColor = a;
+      }
+    }
+  </script>
+</body>
+
+</html>
